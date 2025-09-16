@@ -1,4 +1,4 @@
-# CAP CAPTCHA Service | CAP 验证码服务
+# CAP Worker Service | CAP 验证码服务
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xyTom/cap-worker)
 
@@ -8,7 +8,7 @@
 
 ## English
 
-CAP CAPTCHA is a next-generation CAPTCHA service powered by Cloudflare Workers, utilizing SHA-256 Proof of Work (PoW) algorithms for robust bot protection.
+CAP Worker is a next-generation CAPTCHA service powered by Cloudflare Workers, utilizing SHA-256 Proof of Work (PoW) algorithms for robust bot protection.
 
 ### 🚀 Features
 
@@ -21,7 +21,7 @@ CAP CAPTCHA is a next-generation CAPTCHA service powered by Cloudflare Workers, 
 
 ### 🏗️ Architecture Design
 
-CAP CAPTCHA leverages Cloudflare's cutting-edge infrastructure to deliver a robust and scalable CAPTCHA solution:
+CAP Worker leverages Cloudflare's cutting-edge infrastructure to deliver a robust and scalable CAPTCHA solution:
 
 #### Distributed Architecture
 - **Durable Objects (DO)**: Challenge state management with strong consistency guarantees
@@ -40,13 +40,13 @@ CAP CAPTCHA leverages Cloudflare's cutting-edge infrastructure to deliver a robu
 
 ### 🌐 Live Demo
 
-Visit [https://captcha.gurl.eu.org/](https://captcha.gurl.eu.org/) to see CAP CAPTCHA in action and explore the interactive documentation.
+Visit [https://captcha.gurl.eu.org/](https://captcha.gurl.eu.org/) to see CAP Worker in action and explore the interactive documentation.
 
 ### 📦 Quick Start
 
 #### 1. Installation
 
-Add the CAP CAPTCHA script to your HTML:
+Add the CAP Worker script to your HTML:
 
 ```html
 <script src="https://captcha.gurl.eu.org/cap.min.js"></script>
@@ -265,7 +265,7 @@ This project is licensed under the MIT License.
 
 ## 中文
 
-CAP CAPTCHA 是基于 Cloudflare Workers 构建的下一代验证码服务，采用 SHA-256 工作量证明算法提供强大的机器人防护能力。
+CAP Worker 是基于 Cloudflare Workers 构建的下一代验证码服务，采用 SHA-256 工作量证明算法提供强大的机器人防护能力。
 
 ### 🚀 功能特性
 
@@ -278,7 +278,7 @@ CAP CAPTCHA 是基于 Cloudflare Workers 构建的下一代验证码服务，采
 
 ### 🏗️ 系统架构设计
 
-CAP CAPTCHA 基于 Cloudflare 尖端基础设施，提供稳健且可扩展的验证码解决方案：
+CAP Worker 基于 Cloudflare 尖端基础设施，提供稳健且可扩展的验证码解决方案：
 
 #### 分布式架构
 - **持久化对象 (DO)**: 挑战状态管理，具备强一致性保证
@@ -297,13 +297,13 @@ CAP CAPTCHA 基于 Cloudflare 尖端基础设施，提供稳健且可扩展的�
 
 ### 🌐 在线演示
 
-访问 [https://captcha.gurl.eu.org/](https://captcha.gurl.eu.org/) 体验 CAP CAPTCHA 并查看交互式文档。
+访问 [https://captcha.gurl.eu.org/](https://captcha.gurl.eu.org/) 体验 CAP Worker 并查看交互式文档。
 
 ### 📦 快速开始
 
 #### 1. 安装
 
-在您的 HTML 中添加 CAP CAPTCHA 脚本：
+在您的 HTML 中添加 CAP Worker 脚本：
 
 ```html
 <script src="https://captcha.gurl.eu.org/cap.min.js"></script>
