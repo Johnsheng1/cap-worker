@@ -30,9 +30,6 @@
 	},
 	"observability": {
 		"enabled": true
-	},
-	{
-  	"route": "captcha.api.968111.xyz/*"
 	}
 	/**
 	 * Smart Placement
